@@ -1,0 +1,59 @@
+.header {
+  display: block;
+  background-color: #3486e3;
+  font-size: 20px;
+  font-family: Futura;
+  padding: 30px;
+  vertical-align: middle;
+  color: white;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Futura;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: #bad6f7;
+}
+
+input {
+  width: 100px;
+  padding: 5px;
+  margin: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+}
+
+#button:hover { background-color: #3486e3; }
+#button:active { background-color: #f2de46; }
+
+#result {
+  margin: 20px auto;
+  color: black;
+}
+
+#factors {
+  margin: 20px auto;
+  text-align: center;
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  h1 { font-size: 30px; }
+  
+  .header {
+    font-size: 15px;
+    padding: 30px;
+    text-align: center;
+  }
+}
